@@ -1,6 +1,6 @@
 # Human Name Matching Engine
 
-Matching human names is a complex problem that spans across languages, writing systems, and cultural conventions. This library provides a multi-language, rules-based approach to matching whether two names refer to the same person, handling variations in formatting, transliteration, cultural usage, and more to determine if names are equivalent with a high degree of confidence.
+Matching human names is a [complex problem](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/) that spans across languages, writing systems, and cultural conventions. This library provides a multi-language, rules-based approach to matching whether two names refer to the same person, handling variations in formatting, transliteration, cultural usage, and more to determine if names are equivalent with a high degree of confidence.
 
 - **Multiple transliteration variants of foreign names** (e.g., "Mohammed bin Hamad Al Thani" – "Sheikh Mohammed")
 - **Nicknames and diminutives** (e.g., "Joseph Robinette Biden Jr." – "Joe Biden") 

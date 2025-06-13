@@ -1,10 +1,17 @@
 # Human Name Matching Engine
 
-Matching human names is a complex problem. This library provides a multi-language, rules-based approach to matching whether two human names are the same. For example, your passport might read "Mr Robert A. Smith" but your ticket might read "Bob Smith," yet they are highly likely the same name in English. Each language has its own set of rules for matching names, and this library provides a multi-language approach to testing for name similarity.
+Matching human names is a complex problem that spans across languages, writing systems, and cultural conventions. This library provides a multi-language, rules-based approach to matching whether two names refer to the same person, handling variations in formatting, transliteration, cultural usage, and more to determine if names are equivalent with a high degree of confidence.
 
-The library handles these variations across different languages and writing systems. For instance, in Chinese, a name like 王伟 (romanized as Wáng Wěi) might be written as Wei Wang in a Western context, reversing the family and given names.
-
-Similarly, in Russian, a man formally named Александр Петров (Aleksandr Petrov) is commonly called Саша Петров (Sasha Petrov), where Sasha is a standard diminutive for Aleksandr. This library can identify these as probable matches.
+- **Multiple transliteration variants of foreign names** (e.g., "Mohammed bin Hamad Al Thani" – "Sheikh Mohammed")
+- **Nicknames and diminutives** (e.g., "Joseph Robinette Biden Jr." – "Joe Biden") 
+- **Common misspellings** (e.g., "Vladimir Vladimirovich Putin" – "Vladimir Putin")
+- **Orthographic variations with diacritics** (e.g., "Emmanuel Jean-Michel Frédéric Macron" – "Emmanuel Macron")
+- **Tokenization variations** (e.g., "Kim Jong-un" – "Kim Jong Un")
+- **Different transliteration standards** (e.g., "Hamad bin Khalifa" – "Hamad ibn Khalifah")
+- **Optional name components** (e.g., "Elizabeth Alexandra Mary Windsor" – "Queen Elizabeth II")
+- **Name order variations** (e.g., "Jae-in Moon" – "Moon Jae-in")
+- **Ethnicity-specific variations** (e.g., "bin" vs "ibn" in Arabic names)
+- **Names written in different scripts and languages** (e.g., "Angela Merkel" – "أنجيلا ميركل" – "アンゲラ・メルケル")
 
 ## Usage
 
